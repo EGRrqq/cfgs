@@ -1,3 +1,24 @@
 [submodule "helix"]
 	path = helix
 	url = git@github.com:EGRrqq/helix.git
+[submodule "nvim"]
+	path = nvim
+	url = git@github.com:EGRrqq/kickstart.nvim.git
+[submodule "qtile"]
+	path = qtile
+	url = git@github.com:EGRrqq/qtile.git
+[submodule "alacritty"]
+	path = alacritty
+	url = git@github.com:EGRrqq/alacritty.git
+[submodule "tmux"]
+	path = tmux
+	url = git@github.com:EGRrqq/tmux.git
+[submodule "zsh"]
+	path = zsh
+	url = git@github.com:EGRrqq/zsh.git
+[submodule "i3/i3status"]
+	path = i3/i3status
+	url = git@github.com:EGRrqq/i3status.git
+[submodule "i3/i3_general"]
+	path = i3/i3_general
+	url = git@github.com:EGRrqq/i3.git
