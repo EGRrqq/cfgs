@@ -1,33 +1,44 @@
 [submodule "wm/qtile"]
 	path = wm/qtile
 	url = git@github.com:EGRrqq/qtile.git
+	branch = main
 [submodule "terminal/alacritty"]
 	path = terminal/alacritty
 	url = git@github.com:EGRrqq/alacritty.git
+	branch = main
 [submodule "terminal/tmux"]
 	path = terminal/tmux
 	url = git@github.com:EGRrqq/tmux.git
+	branch = main
 [submodule "terminal/zsh"]
 	path = terminal/zsh
+	branch = main
 	url = git@github.com:EGRrqq/zsh.git
 [submodule "editor/helix"]
 	path = editor/helix
 	url = git@github.com:EGRrqq/helix.git
+	branch = main
 [submodule "editor/nvim"]
 	path = editor/nvim
 	url = git@github.com:EGRrqq/kickstart.nvim.git
+	branch = master
 [submodule "wm/awesome"]
 	path = wm/awesome
 	url = git@github.com:EGRrqq/awesome.git
+	branch = main
 [submodule "wm/i3/i3status"]
 	path = wm/i3/i3status
 	url = git@github.com:EGRrqq/i3status.git
+	branch = main
 [submodule "wm/i3/i3_general"]
 	path = wm/i3/i3_general
 	url = git@github.com:EGRrqq/i3.git
+	branch = main
 [submodule "terminal/kitty"]
 	path = terminal/kitty
 	url = git@github.com:EGRrqq/kitty.git
+	branch = main
 [submodule "editor/zed"]
 	path = editor/zed
 	url = git@github.com:EGRrqq/zed.git
+	branch = main
