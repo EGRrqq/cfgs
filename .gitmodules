@@ -25,7 +25,6 @@
 [submodule "wm/i3/i3_general"]
 	path = wm/i3/i3_general
 	url = git@github.com:EGRrqq/i3.git
-
 [submodule "terminal/kitty"]
 	path = terminal/kitty
 	url = git@github.com:EGRrqq/kitty.git
