@@ -1,24 +1,27 @@
-[submodule "helix"]
-	path = helix
-	url = git@github.com:EGRrqq/helix.git
-[submodule "nvim"]
-	path = nvim
-	url = git@github.com:EGRrqq/kickstart.nvim.git
-[submodule "qtile"]
-	path = qtile
+[submodule "wm/qtile"]
+	path = wm/qtile
 	url = git@github.com:EGRrqq/qtile.git
-[submodule "alacritty"]
-	path = alacritty
+[submodule "terminal/alacritty"]
+	path = terminal/alacritty
 	url = git@github.com:EGRrqq/alacritty.git
-[submodule "tmux"]
-	path = tmux
+[submodule "terminal/tmux"]
+	path = terminal/tmux
 	url = git@github.com:EGRrqq/tmux.git
-[submodule "zsh"]
-	path = zsh
+[submodule "terminal/zsh"]
+	path = terminal/zsh
 	url = git@github.com:EGRrqq/zsh.git
-[submodule "i3/i3status"]
-	path = i3/i3status
-	url = git@github.com:EGRrqq/i3status.git
-[submodule "i3/i3_general"]
-	path = i3/i3_general
-	url = git@github.com:EGRrqq/i3.git
+[submodule "editor/helix"]
+	path = editor/helix
+	url = git@github.com:EGRrqq/helix.git
+[submodule "editor/nvim"]
+	path = editor/nvim
+	url = git@github.com:EGRrqq/kickstart.nvim.git
+[submodule "wm/awesome"]
+	path = wm/awesome
+	url = git@github.com:EGRrqq/awesome.git
+[submodule "terminal/kitty"]
+	path = terminal/kitty
+	url = git@github.com:EGRrqq/kitty.git
+[submodule "editor/zed"]
+	path = editor/zed
+	url = git@github.com:EGRrqq/zed.git
