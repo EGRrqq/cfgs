@@ -19,6 +19,13 @@
 [submodule "wm/awesome"]
 	path = wm/awesome
 	url = git@github.com:EGRrqq/awesome.git
+[submodule "wm/i3/i3status"]
+	path = wm/i3/i3status
+	url = git@github.com:EGRrqq/i3status.git
+[submodule "wm/i3/i3_general"]
+	path = wm/i3/i3_general
+	url = git@github.com:EGRrqq/i3.git
+
 [submodule "terminal/kitty"]
 	path = terminal/kitty
 	url = git@github.com:EGRrqq/kitty.git
