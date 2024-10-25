@@ -1,0 +1,47 @@
+""" Map leader to space ---------------------
+let mapleader=" "
+
+""" Plugins  --------------------------------
+set surround
+set commentary
+
+" options and mappings that are supported by both Vim and IdeaVim
+set nu
+set relativenumber
+set incsearch
+
+map <leader>f <Action>(GotoFile)
+map <leader>fs <Action>(Switcher)
+map <leader>g <Action>(FindInPath)
+
+map <leader>o <Action>(FileStructurePopup)
+map <leader>d <Action>(Debug)
+map <leader>r <Action>(RenameElement)
+map <leader>c <Action>(Stop)
+map <leader>z <Action>(ToggleDistractionFreeMode)
+
+map <leader>s <Action>(SelectInProjectView)
+map <leader>a <Action>(Annotate)
+map <leader>h <Action>(Vcs.ShowTabbedFileHistory)
+map <S-Space> <Action>(GotoNextError)
+
+map <leader>b <Action>(ToggleLineBreakpoint)
+"map <leader>m :action EditorScrollToCenter<CR>
+map <leader>m <Action>(EditorScrollToCenter)
+map <leader>s <Action>(VimMotionScrollHalfPageDown)
+map <leader>b <Action>(VimMotionMiddleScreenLine)
+
+" Keeps the cursor in the center of the screen
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
+nnoremap n nzzzv
+nnoremap N Nzzzv
+
+" Move the line up/down
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
+vnoremap <A-Down> :m '>+1<CR>gv=gv
+vnoremap <A-Up> :m '<-2<CR>gv=gv
+
+" Delete without buffer
+xnoremap <leader>p "_dP
