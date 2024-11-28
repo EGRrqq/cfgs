@@ -42,3 +42,6 @@
 	path = editor/zed
 	url = git@github.com:EGRrqq/zed.git
 	branch = main
+[submodule "terminal/wezterm"]
+	path = terminal/wezterm
+	url = git@github.com:EGRrqq/wezterm.git
